@@ -14,38 +14,38 @@ Feel free to use and distribute 'tf_nightly-2.1.0-cp37-cp37m-linux_x86_64.whl' o
 
 1. INSTALL PYTHON AND PIP
 
-´´´$ sudo apt install python3-dev python3-pip´´´
+```$ sudo apt install python3-dev python3-pip```
 
 2. DEPENDENCES
 
-´´´(TensorFlow) $ pip install pip
+```(TensorFlow) $ pip install pip
 (TensorFlow) $ pip install numpy
 (TensorFlow) $ pip install mock
 (TensorFlow) $ pip install keras_applications --no-deps
-(TensorFlow) $ pip install keras_preprocessing --no-deps´´´
+(TensorFlow) $ pip install keras_preprocessing --no-deps```
 
 3. GET BAZEL
 
-´´´$ sudo apt install curl
-curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list´´´
+```$ sudo apt install curl
+curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list```
 
 4. INSTALL AND UPDATE BAZEL
 
-´´´$ sudo apt update && sudo apt install bazel´´´
+```$ sudo apt update && sudo apt install bazel```
 
 5. INSTALL AN SPECIFIC VERSION OF BAZEL
 
-´´´$ sup apt install bazel-2.0.0´´´
+```$ sup apt install bazel-2.0.0```
 
 *The are some comments about that Bazel requires an specific version to build the pip package, but I did use Bazel-2.0.0 with no errors / problems
 
 6. DOWNLOAD TENSORFLOW 
 
-´´´(TensorFlow) $ git clone https://github.com/tensorflow/tensorflow.git´´´
+```(TensorFlow) $ git clone https://github.com/tensorflow/tensorflow.git```
 
 7. GO TO THE DIRECTORY
 
-´´´(TensorFlow) $ cd tensorflow´´´
+```(TensorFlow) $ cd tensorflow```
 
 8. 
 
