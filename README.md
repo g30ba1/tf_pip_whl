@@ -18,16 +18,16 @@ Feel free to use and distribute 'tf_nightly-2.1.0-cp37-cp37m-linux_x86_64.whl' o
 
 2. DEPENDENCES
 
-```(TensorFlow) $ pip install pip
-(TensorFlow) $ pip install numpy
-(TensorFlow) $ pip install mock
-(TensorFlow) $ pip install keras_applications --no-deps
-(TensorFlow) $ pip install keras_preprocessing --no-deps```
+```(TensorFlow) $ pip install pip```
+```(TensorFlow) $ pip install numpy```
+```(TensorFlow) $ pip install mock```
+```(TensorFlow) $ pip install keras_applications --no-deps```
+```(TensorFlow) $ pip install keras_preprocessing --no-deps```
 
 3. GET BAZEL
 
-```$ sudo apt install curl
-curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list```
+```$ sudo apt install curl```
+```curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add - echo "deb [arch=amd64] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list```
 
 4. INSTALL AND UPDATE BAZEL
 
