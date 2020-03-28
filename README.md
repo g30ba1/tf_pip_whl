@@ -24,7 +24,9 @@ $ sudo apt install python3-dev python3-pip
 ```
 (TensorFlow) $ pip install numpy
 ```
-```(TensorFlow) $ pip install mock```
+```
+(TensorFlow) $ pip install mock
+```
 ```
 (TensorFlow) $ pip install keras_applications --no-deps
 ```
