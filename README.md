@@ -94,3 +94,4 @@ $ sup apt install bazel-2.0.0
 ```
 (TensorFlow) $ pip install /tmp/tensorflow_pkg/tensorflow-version-tags.whl
 ```
+* If you are just installing TensorFlow with pip, use the directory where you downloaded the file 'tf_nightly-2.1.0-cp37-cp37m-linux_x86_64.whl' (See "release" on the repository) instead of '/tmp/tensorflow_pkg/tensorflow-version-tags.whl'
