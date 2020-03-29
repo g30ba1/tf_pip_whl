@@ -9,7 +9,7 @@ Install TensorFlow 2.1.0 for Ubuntu 19.10 with the following specs:
 
 Unfortunately, there are a lot of PC´s which have been left behind current TensorFlow versions (In this case, due to AVX instructions added after tf 1.6) this is why I built a pip package made to be installed on PC´s with 'old' processors (Or not powerful like i5-i7 Intel series)
 
-Feel free to use and distribute 'tf_nightly-2.1.0-cp37-cp37m-linux_x86_64.whl'.
+Feel free to use and distribute 'tf_nightly-2.1.0-cp37-cp37m-linux_x86_64.whl' (See "release")
 
 *The majority of commands are typed in the virtualenv 'TensorFlow' (Please note the: (TensorFlow) user@hostname ~$ BEFORE commands)
 *IMPORTANT: If you want to just install with pip, skip "Build Tensorflow from source" and just follow steps 1, 2 and 11.
@@ -73,6 +73,7 @@ $ sup apt install bazel-2.0.0
 (TensorFlow) $
 ```
 8.3 CHECK YOUR PC CAPACILITIES (if GPU available) FOR THE NEXT QUESTIONS AND ANSWER ACCORDINGLY (CUDA, OpenSYCL, ROCm, etc.)
+
 8.4 SPECIFY OPTIMIZATION FLAGS
 ```
 (TensorFlow) $ -march=native
